@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girls Space</title>
+
+  <style>
+    body {
+      background-color: #ffe6f0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: #c77dff;
+      font-size: 40px;
+    }
+
+    h2 {
+      color: #ff8fab;
+      margin-top: 40px;
+    }
+
+    p {
+      color: #555;
+      font-size: 18px;
+    }
+
+    button {
+      background-color: #ffc2d1;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff8fab;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: white;
+      margin: 10px auto;
+      padding: 12px;
+      width: 60%;
+      border-radius: 15px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Girls Space by Girl</h1>
+  <p>Um cantinho de autocuidado, paz e evolução 🌸</p>
+  <p>por Gigi Lima</p>
+
+  <button onclick="mostrarFrase()">Clique para uma mensagem 💌</button>
+  <p id="frase"></p>
+
+  <h2>Sobre mim</h2>
+  <p>
+    Oi! Eu sou a Gigi Lima 💖  
+    Criei o Girls Space para compartilhar autocuidado, evolução pessoal  
+    e lembrar que cada menina floresce no seu próprio tempo 🌸
+  </p>
+
+  <h2>Frases de autocuidado</h2>
+  <ul>
+    <li>Respire fundo, você está indo bem 🌿</li>
+    <li>Pequenos passos também são progresso ✨</li>
+    <li>Você merece descanso e coisas boas 💕</li>
+  </ul>
+
+  <script>
+    function mostrarFrase() {
+      document.getElementById("frase").innerText =
+        "Você está florescendo no seu próprio tempo 🌸";
+    }
+  </script>
+
+</body>
+</html>
