@@ -1,106 +1,105 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Girls Space</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+  <title>Girls Space by Girl</title>
+
   <style>
     body {
-      background-color: #ffe6f0;
-      font-family: Poppins, sans-serif;
-      text-align: center;
-      padding: 40px;
+      margin: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+
+      background: linear-gradient(135deg, #f8e8ff, #e6f0ff);
 
       display: flex;
+      align-items: center;
       justify-content: center;
     }
-.container {
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 30px;
-  border-radius: 25px;
-  max-width: 600px;
-  width: 90%;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-}
-    h1 {
-      color: #c77dff;
-      font-size: 40px;
+
+    .container {
+      background-color: white;
+      width: 90%;
+      max-width: 700px;
+
+      padding: 40px;
+      border-radius: 20px;
+
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
     }
 
-    h2 {
-      color: #ff8fab;
-      margin-top: 40px;
+    h1 {
+      color: #b57edc;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      color: #888;
+      margin-bottom: 25px;
+    }
+
+    img {
+      width: 180px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.15);
     }
 
     p {
       color: #555;
       font-size: 18px;
+      line-height: 1.5;
     }
 
     button {
-      background-color: #ffc2d1;
-      color: white;
+      margin-top: 25px;
+      padding: 12px 28px;
+
       border: none;
-      padding: 12px 20px;
+      border-radius: 12px;
+
+      background-color: #b57edc;
+      color: white;
       font-size: 16px;
-      border-radius: 20px;
+
       cursor: pointer;
       transition: 0.3s;
     }
 
     button:hover {
-      background-color: #ff8fab;
+      background-color: #9a63c7;
+      transform: scale(1.05);
     }
 
-    ul {
-      list-style: none;
-      padding: 0;
+    footer {
+      margin-top: 35px;
+      font-size: 14px;
+      color: #aaa;
     }
-
-    li {
-      background-color: white;
-      margin: 10px auto;
-      padding: 12px;
-      width: 60%;
-      border-radius: 15px;
-      color: #555;
-    }
-    
   </style>
 </head>
 
 <body>
   <div class="container">
+    <h1>Girls Space by Girl 💗</h1>
+    <div class="subtitle">Um cantinho feminino, leve e real</div>
+
+    <img src="https://i.imgur.com/8Km9tLL.png" alt="foto">
+
+    <p>
+      Oi, eu sou a Gigi ✨  
+      Estou aprendendo programação e criando meu próprio espaço na internet.  
+      Aqui vou falar sobre autocuidado, rotina, estudos e o mundo feminino 💻🌷
+    </p>
+
+    <button onclick="alert('Bem-vinda ao meu espaço 💕')">
+      Entrar no meu mundo
+    </button>
+
+    <footer>
+      Por Gigi Lima © 2026
+    </footer>
   </div>
-</body>  
-  <h1>Girls Space by Girl</h1>
-  <p>Um cantinho de autocuidado, paz e evolução 🌸</p>
-  <p>por Gigi Lima</p>
-
-  <button onclick="mostrarFrase()">Clique para uma mensagem 💌</button>
-  <p id="frase"></p>
-
-  <h2>Sobre mim</h2>
-  <p>
-    Oi! Eu sou a Gigi Lima 💖  
-    Criei o Girls Space para compartilhar autocuidado, evolução pessoal  
-    e lembrar que cada menina floresce no seu próprio tempo 🌸
-  </p>
-
-  <h2>Frases de autocuidado</h2>
-  <ul>
-    <li>Respire fundo, você está indo bem 🌿</li>
-    <li>Pequenos passos também são progresso ✨</li>
-    <li>Você merece descanso e coisas boas 💕</li>
-  </ul>
-
-  <script>
-    function mostrarFrase() {
-      document.getElementById("frase").innerText =
-        "Você está florescendo no seu próprio tempo 🌸";
-    }
-  </script>
-
 </body>
 </html>
